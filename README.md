@@ -6,7 +6,6 @@ A simple and efficient Todo List application built with Spring Boot. This applic
 
 - Create new tasks
 - View all tasks
-- Update existing tasks
 - Delete tasks
 - Mark tasks as completed
 
@@ -16,14 +15,13 @@ A simple and efficient Todo List application built with Spring Boot. This applic
 - Spring Boot
 - Spring Data JPA
 - Thymeleaf
-- H2 Database
+- MySQL Database
 - Maven
 
 ## Prerequisites
 
 - Java JDK 17 or higher
 - Maven 3.x
-- Git
 
 ## Getting Started
 
@@ -54,7 +52,6 @@ The application will start running at `http://localhost:8080`
 - `GET /tasks` - Get all tasks
 - `GET /tasks/{id}` - Get a specific task by ID
 - `POST /tasks` - Create a new task
-- `PUT /tasks/{id}` - Update an existing task
 - `DELETE /tasks/{id}` - Delete a task
 
 ## Project Structure
@@ -76,11 +73,3 @@ src/
 └── test/
     └── java/
 ```
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests to contribute to this project.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
